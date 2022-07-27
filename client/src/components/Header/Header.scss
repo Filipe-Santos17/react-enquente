@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF007F;
+    padding: 0 1rem;
+
+    .titulo{
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    .btn-green{
+        background-color: #0f0;
+    }
+}
