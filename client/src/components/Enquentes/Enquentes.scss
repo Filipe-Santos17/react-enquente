@@ -1,0 +1,35 @@
+section.Enquentes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    .card{
+        flex-flow: column nowrap;
+        border: .2rem #fff solid;
+        border-radius: .2rem;
+        padding: 3rem 1.5rem;
+        margin: 1rem;
+        text-align: center;
+
+        .card-title{
+            text-transform: capitalize;
+        }
+    }
+}
+
+hgroup.btns{
+    
+    display: flex;
+
+    .btn-blue{
+        background-color: #00f;
+    }
+
+    .btn-gray{
+        background-color: #808080;
+    }
+
+    .btn-red{
+        background-color: #f00;
+    }
+}
