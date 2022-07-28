@@ -37,7 +37,7 @@ module.exports = {
     async deleteEnquent(req,res){
         const id = req.params.id
 
-        await Enquentes.destroy({where: {'id':id}})
+        await Enquent.destroy({where: {'id':id}})
         .then(() => res.send("Deleted").status(200))
         .catch(erro => res.send(`Erro: ${erro}`).status(404))
     },
